@@ -1,0 +1,132 @@
+body {
+    background-color: hsl(168, 44%, 75%);
+    font-family: sans-serif;
+    text-align: center;
+    color: hsl(182, 100%, 25%);
+}
+
+h1 {
+    text-align:center;
+    color: white;
+    font-size: 60px;
+}
+
+#description {
+    color: hsl(0, 0%, 34%)
+    }
+
+p{
+  padding: 0px;
+  margin:10px;
+  position: center;
+}
+  
+
+form {
+    background-color: white;
+    margin: 10px;
+    padding: 50px;
+    width: 550px;
+    height: 820px !important;
+   
+}
+
+.form-center{
+  display:flex;
+  justify-content:center;
+}
+
+#name-label{
+  color: hsl(182, 100%, 25%);
+  margin: 0px;
+  display: flex;
+  font-size: 18px;
+}
+
+#name{
+  display: flex;
+  border: 2px solid grey;
+  height: 4%;
+  width: 90%;
+}
+
+#email-label{
+  color: hsl(182, 100%, 25%);
+  margin: 0px;
+  display: flex;
+  font-size: 18px;
+}
+#email{
+  display: flex;
+  border: 2px solid grey;
+  height: 4%;
+  width: 90%;
+}
+
+#number-label{
+  color: hsl(182, 100%, 25%);
+  margin: 0px;
+  display: flex;
+  font-size: 18px;
+}
+
+#number{ 
+  display: flex;
+  border: 2px solid grey;
+  height: 4%;
+  width: 90%;}
+
+#dropdown-label{
+  color: hsl(182, 100%, 25%);
+  margin: 0px;
+  display: flex;
+  font-size: 18px;
+}
+
+#dropdown{
+  display: flex;
+  border: 2px solid grey;
+  height: 5%;
+  width: 90%;
+}
+
+#radio-label{
+  color: hsl(182, 100%, 25%);
+  margin: 0px;
+  display: flex;
+  font-size: 18px;
+}
+
+#checkbox-label{
+  color: hsl(182, 100%, 25%);
+  margin: 0px;
+  display: flex;
+  font-size: 18px;
+}
+
+#comments-label{
+  color: hsl(182, 100%, 25%);
+  margin: 0px;
+  display: flex;
+  font-size: 18px;
+}
+
+#comments{
+  border: 2px solid grey;
+  height: 15%;
+  width: 85%;
+}
+
+#submit{
+  background-color: hsl(180, 100%, 25%); 
+  color: white;
+  font-size: 15px;
+  height: 35px;
+  width: 500px;
+  margin: 5px;
+}
+
+#submit:hover
+{
+ background-color: hsl(168, 71%, 44%);
+}

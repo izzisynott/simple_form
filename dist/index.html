@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+    <main>
+      
+      <h1 id=title>Survey Form</h1>
+        <p id=description> We are looking to extend our Korfball club and are welcoming new members. Please fill out the following form to allow us to capture demand and define best days for extra training. </p>
+ 
+        <div class="form-center">
+        <form id=survey-form > 
+          <label id="name-label">Name</label>
+<br>
+          <input type="text" name="name-label" required="" id="name" placeholder="Enter your name">
+<br>
+          <label id="email-label">Email</label>
+<br>
+          <input type="email" name="email-label" required="" id="email" placeholder="Enter your Email">
+<br>
+          <label id="number-label">Age (optional)</label>
+<br>
+          <input type="number" "range" name="number-label" required="" id="number" min="1" max="99px" placeholder="Age">
+<br>
+      <label id="dropdown-label">How did you hear about our Korfball club?</label>  <br>
+      <select name="dropdown" id="dropdown">
+      <option value>Select an option</option>
+  <option value="Already a member">Already a member</option> 
+  <option value="Word of mouth">Word of mouth</option>   
+   <option value="Social media">Social media</option>   
+   <option value="Friend referal">Friend referal</option>
+        <option value="Advertisement">Advertisement</option>
+      </select>
+<br>
+       <label id="radio-label">Would you attend training sessions more than once a week?</label>
+<br>
+       <label for="definitely"> 
+       <input id="definitely" type="radio"      name="definitely-no-uncertain" value="1">Definitely 
+       </label>
+       <label for="no"> 
+       <input id="no" type="radio"      name="definitely-no-uncertain" value="2">No 
+       </label>
+       <label for="uncertain"> 
+       <input id="uncertain" type="radio"      name="definitely-no-uncertain" value="3">Uncertain 
+       </label>
+<br>
+<br>
+       <label id="checkbox-label">Which days are you avaliable to attend training?</label>
+<br>
+      <label for="Monday"><input id="Monday" type="checkbox" name="Week Day" value="1">Monday</label>
+      <label for="Tuesday"><input id="Tuesday" type="checkbox" name="Week Day" value="2">Tuesday</label>
+      <label for="Wednesday"><input id="Wednesday" type="checkbox" name="Week Day" value="2">Wednesday</label>
+      <label for="Thursday"><input id="Thursday" type="checkbox" name="Week Day" value="2">Thursday</label>
+      <label for="Friday"><input id="Friday" type="checkbox" name="Week Day" value="2">Friday</label>
+<br>
+<br>
+     <label id="comments-label">We want to match people to appropriate levels within each training session, so please leave a few comments about you're prior Korfball experience (if any) and/or fitness level. </label>
+<br>
+<textarea name="comments" id="comments">
+</textarea>
+<br>
+<br>
+      <button id="submit" type="submit">Submit</button>
+      </form>
+      </div>
+    </main>
+
+
+ </body>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
